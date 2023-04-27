@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-04-27 15:20:36.742278",
+ "creation": "2023-04-27 17:40:39.664941",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -11,7 +11,7 @@
   "border",
   "fill_color",
   "back_color",
-  "column_break_g5mhn",
+  "column_break_d0evc",
   "qr_code_data"
  ],
  "fields": [
@@ -28,7 +28,7 @@
   {
    "fieldname": "fill_color",
    "fieldtype": "Color",
-   "label": "Fill color"
+   "label": "Fill Color"
   },
   {
    "fieldname": "back_color",
@@ -36,23 +36,22 @@
    "label": "Back Color"
   },
   {
+   "fieldname": "column_break_d0evc",
+   "fieldtype": "Column Break"
+  },
+  {
    "fieldname": "qr_code_data",
    "fieldtype": "Small Text",
    "label": "QR Code Data"
-  },
-  {
-   "fieldname": "column_break_g5mhn",
-   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-04-27 15:21:20.491359",
+ "modified": "2023-04-27 17:40:39.664941",
  "modified_by": "Administrator",
  "module": "Frappe QR Code",
- "name": "QR Code Settings",
- "naming_rule": "Expression (old style)",
+ "name": "Frappe QR Code Settings",
  "owner": "Administrator",
  "permissions": [
   {

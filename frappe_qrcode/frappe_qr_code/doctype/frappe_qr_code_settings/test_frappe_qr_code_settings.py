@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestQRCodeSettings(FrappeTestCase):
+class TestFrappeQRCodeSettings(FrappeTestCase):
 	pass
