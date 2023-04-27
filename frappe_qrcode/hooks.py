@@ -199,3 +199,10 @@ app_license = "MIT"
 # auth_hooks = [
 #	"frappe_qrcode.auth.validate"
 # ]
+
+
+jenv = {
+	"methods": [
+		"get_qr_code_image:frappe.contacts.doctype.sample_document.sample_document.get_qr_code_image"
+	]
+}
