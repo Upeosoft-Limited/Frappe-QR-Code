@@ -10,6 +10,7 @@ from frappe.model.document import Document
 class FrappeQRCodeSettings(Document):
 	pass
 
+
 def generate_qr_code(**kwargs):
 	qrCode = qrcode.QRCode(version=1, box_size=kwargs['box_size'], border=kwargs['border'])
 	qrCode.add_data(kwargs['qrcode_data'])
