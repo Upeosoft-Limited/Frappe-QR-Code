@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_qrcode *.css
+recursive-include frappe_qrcode *.csv
+recursive-include frappe_qrcode *.html
+recursive-include frappe_qrcode *.ico
+recursive-include frappe_qrcode *.js
+recursive-include frappe_qrcode *.json
+recursive-include frappe_qrcode *.md
+recursive-include frappe_qrcode *.png
+recursive-include frappe_qrcode *.py
+recursive-include frappe_qrcode *.svg
+recursive-include frappe_qrcode *.txt
+recursive-exclude frappe_qrcode *.pyc
