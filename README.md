@@ -8,7 +8,7 @@ MIT
 
 ## Dependencies
 
-This module depends on qrcode, base64 and BytesIO. If any of them is not installed in your environment, you will need to install it as shown below for the case of qrcode.
+This module depends on **qrcode**, **base64** and **BytesIO**. If any of them is not installed in your environment, you will need to install it as shown below for the case of qrcode.
 
 <pre><code> ./env/bin/pip3 install qrcode </code></pre>
 
